@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class AddCategoryPage {
+public class AddCategoryPage extends BasePage {
 	
 	WebDriver driver;
 	
@@ -17,7 +17,7 @@ public class AddCategoryPage {
 //	@FindBy(name="submit") WebElement ADD_CATEGORY;
 	@FindBy(how = How.XPATH, using = "//input[@type='submit' and @value='Add category']") WebElement ADD_CATEGORY;
 	public void addCategory(String categoryname ) {
-		TYPE_NAME.sendKeys(categoryname);
+		TYPE_NAME.sendKeys(categoryname + generateRandomNo(9999));
 		
 	}
 	public void clickOnAddCategory() {

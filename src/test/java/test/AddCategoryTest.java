@@ -16,7 +16,7 @@ public class AddCategoryTest {
 		driver = BrowserFactory.init();
 		
 		AddCategoryPage cp = PageFactory.initElements(driver, AddCategoryPage.class);
-		cp.addCategory("Neelima456");
+		cp.addCategory("Neelima");
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
@@ -24,7 +24,7 @@ public class AddCategoryTest {
 		}
 		cp.clickOnAddCategory();
 		
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		BrowserFactory.tearDown();
 	}
 	

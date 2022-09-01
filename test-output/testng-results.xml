@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6560" started-at="2022-08-30T18:11:41Z" finished-at="2022-08-30T18:11:48Z">
+  <suite name="Default suite" duration-ms="6816" started-at="2022-09-01T14:32:42Z" finished-at="2022-09-01T14:32:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6560" started-at="2022-08-30T18:11:41Z" finished-at="2022-08-30T18:11:48Z">
-      <class name="test.MonthDropdownTest">
-        <test-method status="PASS" signature="validatethemonthdropdown()[pri:0, instance:test.MonthDropdownTest@7f77e91b]" name="validatethemonthdropdown" duration-ms="6545" started-at="2022-08-30T18:11:41Z" finished-at="2022-08-30T18:11:48Z">
+    <test name="Default test" duration-ms="6816" started-at="2022-09-01T14:32:42Z" finished-at="2022-09-01T14:32:49Z">
+      <class name="test.AddCategoryTest">
+        <test-method status="PASS" signature="UserShouldBeAbleToAddCategory()[pri:0, instance:test.AddCategoryTest@7f77e91b]" name="UserShouldBeAbleToAddCategory" duration-ms="6802" started-at="2022-09-01T14:32:42Z" finished-at="2022-09-01T14:32:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatethemonthdropdown -->
-      </class> <!-- test.MonthDropdownTest -->
+        </test-method> <!-- UserShouldBeAbleToAddCategory -->
+      </class> <!-- test.AddCategoryTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
